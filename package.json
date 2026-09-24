@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-ca-procurement",
-  "version": "0.1.0",
-  "description": "California state contract awards & purchase orders: search, top vendors, agency spend — keyless",
+  "version": "0.1.1",
+  "description": "California State Procurement MCP — State contract awards & purchase orders (keyless).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-ca-procurement": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ca-procurement"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-ca-procurement"
+    "url": "git+https://github.com/pipeworx-io/mcp-ca-procurement.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-de67db13d882b7b77b96a1d7e3abb5b534a35b7fced6380c45ec4b74ffe105e4",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }

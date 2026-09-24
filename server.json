@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/ca-procurement",
   "title": "Ca Procurement",
-  "description": "California state contract awards & purchase orders: search, top vendors, agency spend — keyless",
-  "version": "0.1.0",
+  "description": "California State Procurement MCP — State contract awards & purchase orders (keyless).",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ca-procurement",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ca-procurement",
