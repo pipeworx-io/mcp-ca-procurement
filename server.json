@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ca-procurement",
   "title": "Ca Procurement",
   "description": "California State Procurement MCP — State contract awards & purchase orders (keyless).",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/ca-procurement",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ca-procurement",
