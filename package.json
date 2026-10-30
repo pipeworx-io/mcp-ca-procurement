@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ca-procurement",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "California State Procurement MCP — State contract awards & purchase orders (keyless).",
   "type": "module",
   "main": "lib/index.js",
@@ -28,6 +28,6 @@
     "slug": "ca-procurement",
     "gatewaySlug": "ca-procurement",
     "sourceHash": "v1-8220a9005ca208aaa0cac9e5ef280afe728610fe840c2bec72f3bf12d3baa193",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
   }
 }
